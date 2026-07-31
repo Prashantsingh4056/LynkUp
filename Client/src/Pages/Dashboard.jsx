@@ -442,11 +442,13 @@ const Dashboard = () => {
           </p>
 
           {/* Simulated Mobile Framing Container */}
-          <div className="w-full max-w-[370px] aspect-[9/18]  border-8 border-slate-800 rounded-[36px] bg-white shadow-2xl overflow-hidden flex flex-col items-center relative">
+          <div className="w-full max-w-[370px] aspect-[9/18]   border-8 border-slate-800 rounded-[36px] bg-white shadow-2xl flex flex-col items-center relative overflow-y-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
             {/* Visual Phone Camera Notch Anchor */}
             <div className="absolute top-2 w-24 h-4 bg-slate-800 rounded-full"></div>
 
+              <div >
             <PreviewProfile profile={profileData} theme={selectedTheme} />
+              </div>
 
             {/* <div className="w-14 h-14 rounded-full bg-linear-to-tr from-indigo-600 to-pink-500 text-white font-black text-sm tracking-wider flex items-center justify-center shadow-xs mt-4 mb-3 uppercase">
               {username.slice(0, 2)}
