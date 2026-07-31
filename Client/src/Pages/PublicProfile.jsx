@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Loader from "../components/Loader"; // Adjust relative path to match your Loader component location
+import Loader from "../Components/Loader"; // Adjust relative path to match your Loader component location
 import api from "../Configs/api";
 import { getUserData } from "../Context/userContext";
 
