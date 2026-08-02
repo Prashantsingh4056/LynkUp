@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import PreviewProfile from "../Components/PreviewProfile";
 import { themes } from "../assets/themes";
 import ThemeCard from "../Components/ThemeCard";
-import { XCircle } from "lucide-react";
+import { Link2, XCircle } from "lucide-react";
 import Loader from "../Components/Loader";
 
 const Dashboard = () => {
@@ -169,6 +169,13 @@ const Dashboard = () => {
     setRemoveImage(true);
   };
 
+  const copyLink = () => {
+    const linkToCopy = `${window.location.href.split('/')[2]}/u/${profileData.username}`;
+    navigator.clipboard.writeText(linkToCopy);
+
+    toast.success("Profile link copied to clipboard!");
+  };
+
   useEffect(() => {
     fetchUserProfile();
   }, []);
@@ -250,7 +257,10 @@ const Dashboard = () => {
           </div>
           {/* ================= PROFILE CUSTOMIZATION WORKSPACE ================= */}
           <div className="bg-white border border-slate-200/80 rounded-xl p-6 shadow-xs">
+            <div className="flex justify-between items-center">
             <h2 className="text-lg font-bold text-slate-800 mb-4">Handle</h2>
+            <Link2 title="Copy Link" onClick={copyLink} className="w-12 h-6 bg-slate-100 cursor-pointer text-slate-400 mb-2 border border-slate-300 rounded-2xl " size={30} />
+            </div>
 
             <div className="space-y-4">
               {/* 1. New Handle/Username Form Input Node */}
@@ -275,7 +285,7 @@ const Dashboard = () => {
                       }))
                     }
                     placeholder="username"
-                    className="w-full bg-slate-50 text-slate-700 font-bold pl-[76px] pr-4 py-2.5 text-sm bg-transparent focus:bg-white focus:outline-hidden"
+                    className="w-full bg-slate-50 text-slate-700 font-bold pl-[121px] pr-4 py-2.5 text-sm bg-transparent focus:bg-white focus:outline-hidden"
                   />
                 </div>
               </div>
