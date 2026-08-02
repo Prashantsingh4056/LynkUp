@@ -60,19 +60,6 @@ const ProfileSchema = new mongoose.Schema({
     theme: {
       type: String,
       default: "minimal",
-      enum: [
-      "minimal",
-      "ocean",
-      "midnight",
-      "forest",
-      "lavender",
-      "sunset",
-      "rose",
-      "amber",
-      "graphite",
-      "lynkup",
-      "neo-lime"
-    ],
     }
   }
 }, {
