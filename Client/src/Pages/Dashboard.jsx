@@ -259,7 +259,7 @@ const Dashboard = () => {
           <div className="bg-white border border-slate-200/80 rounded-xl p-6 shadow-xs">
             <div className="flex justify-between items-center">
             <h2 className="text-lg font-bold text-slate-800 mb-4">Handle</h2>
-            <Link2 title="Copy Link" onClick={copyLink} className="w-12 h-6 bg-slate-100 cursor-pointer text-slate-400 mb-2 border border-slate-300 rounded-2xl " size={30} />
+            <Link2 title="Copy Link" onClick={copyLink} className="w-12 h-6 bg-slate-100 cursor-pointer text-slate-400 mb-2 border border-slate-300 rounded-2xl hover:bg-slate-200 transition-200" size={30} />
             </div>
 
             <div className="space-y-4">
@@ -285,7 +285,7 @@ const Dashboard = () => {
                       }))
                     }
                     placeholder="username"
-                    className=" bg-slate-50 text-slate-700 font-bold text-sm bg-transparent focus:bg-white focus:outline-hidden"
+                    className="w-full text-slate-700 font-bold text-sm bg-transparent focus:outline-hidden"
                   />
                 </div>
               </div>
