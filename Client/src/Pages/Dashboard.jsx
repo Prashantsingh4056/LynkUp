@@ -184,6 +184,8 @@ const Dashboard = () => {
     return <Loader />;
   }
 
+  const link = "lynk-up-psi.vercel.app/u/";
+
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col font-sans">
       {/* Dynamic Header Component */}
@@ -268,11 +270,13 @@ const Dashboard = () => {
                 <label className="block text-xs font-semibold text-slate-500 uppercase tracking-wider">
                   LynkUp Handle URL
                 </label>
-                <div className="flex w-full shadow-2xs rounded-lg py-2 bg-slate-50 overflow-hidden border border-slate-200 focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 transition duration-150">
+                <div className="flex w-full shadow-2xs rounded-lg py-2 line-clamp-1 bg-slate-50 overflow-hidden border border-slate-200 focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 transition duration-150">
                   {/* Absolute platform path prefix stamp */}
-                  <span className="pl-1 text-sm font-bold text-slate-400 tracking-tight">
-                    {window.location.href.split('/')[2]}/u/
-                  </span>
+                  <div className="pl-1 text-sm font-bold text-slate-400 tracking-tight">
+                    <p className="whitespace-nowrap">
+                     {window.location.href.split('/')[2]}/u/
+                    </p>
+                  </div>
                   <input
                     type="text"
                     value={profileData.username} // Tie this to your React username text state hook
