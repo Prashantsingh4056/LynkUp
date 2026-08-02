@@ -260,8 +260,8 @@ const Dashboard = () => {
                 </label>
                 <div className="relative w-full shadow-2xs rounded-lg overflow-hidden border border-slate-200 focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 transition duration-150">
                   {/* Absolute platform path prefix stamp */}
-                  <span className="absolute left-3 top-1/2 -translate-y-1/2 text-sm font-bold text-slate-400 select-none tracking-tight">
-                    lynkup.ee/
+                  <span className="absolute left-3 top-1/2 -translate-y-1/2 text-sm font-bold text-slate-400 tracking-tight">
+                    {window.location.href.split("/dashboard")[0]}/
                   </span>
                   <input
                     type="text"
