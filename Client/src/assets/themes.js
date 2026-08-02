@@ -206,22 +206,6 @@ export const themes = [
     buttonBorder: "#E5E9F0",
     buttonShadow: "0 8px 24px rgba(94,129,172,0.08)",
   },
-
-  {
-    name: "Deep Space",
-    id: "deep-space",
-    background: "#03001C",
-    card: "#0B0B2E",
-    banner: "linear-gradient(135deg, #711DB0, #C21292)",
-    text: "#EF4444",
-    secondaryText: "#F97316",
-    accent: "#711DB0",
-    buttonBackground: "#0B0B2E",
-    buttonText: "#FFFFFF",
-    buttonBorder: "#711DB0/30",
-    buttonShadow: "0 8px 24px rgba(113,29,176,0.25)",
-  },
-
   {
     name: "Matcha Latte",
     id: "matcha-latte",
@@ -238,21 +222,6 @@ export const themes = [
   },
 
   {
-    name: "Dracula Core",
-    id: "dracula-core",
-    background: "#282A36",
-    card: "#44475A",
-    banner: "linear-gradient(135deg, #BD93F9, #FF79C6)",
-    text: "#F8F8F2",
-    secondaryText: "#6272A4",
-    accent: "#50FA7B",
-    buttonBackground: "#44475A",
-    buttonText: "#F8F8F2",
-    buttonBorder: "#6272A4/40",
-    buttonShadow: "0 8px 24px rgba(0,0,0,0.3)",
-  },
-
-  {
     name: "Bubblegum SaaS",
     id: "bubblegum-saas",
     background: "#FFF5F5",
@@ -265,36 +234,6 @@ export const themes = [
     buttonText: "#4A0E17",
     buttonBorder: "#FFE3E3",
     buttonShadow: "0 8px 24px rgba(255,107,107,0.1)",
-  },
-
-  {
-    name: "Clay Retro",
-    id: "clay-retro",
-    background: "#E8E2D6",
-    card: "#F4F1EA",
-    banner: "linear-gradient(135deg, #E07A5F, #3D405B)",
-    text: "#2D3142",
-    secondaryText: "#F2CC8F",
-    accent: "#E07A5F",
-    buttonBackground: "#F4F1EA",
-    buttonText: "#2D3142",
-    buttonBorder: "#D3CBB9",
-    buttonShadow: "0 6px 0px #2D3142", // Gives a cool physical retro 3D look
-  },
-
-  {
-    name: "Tokyo Neon",
-    id: "tokyo-neon",
-    background: "#1A1B26",
-    card: "#24283B",
-    banner: "linear-gradient(135deg, #7AA2F7, #BB9AF7)",
-    text: "#73DACA",
-    secondaryText: "#9ECE6A",
-    accent: "#F7768E",
-    buttonBackground: "#24283B",
-    buttonText: "#7AA2F7",
-    buttonBorder: "#414868",
-    buttonShadow: "0 8px 24px rgba(0,0,0,0.2)",
   },
 
   {
