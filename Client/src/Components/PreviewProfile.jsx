@@ -29,6 +29,8 @@ export default function PreviewProfile({ profile, theme }) {
         className="h-28"
         style={{
           backgroundImage: theme.banner,
+          backgroundSize: theme.bannerSize || "cover",
+          backgroundPosition: "center",
         }}
       />
 

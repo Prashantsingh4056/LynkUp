@@ -250,4 +250,87 @@ export const themes = [
     buttonBorder: "#EFEBE4",
     buttonShadow: "0 8px 24px rgba(194,155,56,0.08)",
   },
+    {
+    name: "Blueprint",
+    id: "blueprint",
+    background: "#0F172A",
+    card: "#1E293B",
+    // Repeated Grid Gridline Pattern (Inspired by engineering blueprints)
+    banner: "linear-gradient(rgba(30, 41, 59, 0.5), rgba(30, 41, 59, 0.5)), linear-gradient(90deg, #38BDF8 1px, transparent 1px), linear-gradient(#38BDF8 1px, transparent 1px)",
+    bannerSize: "20px 20px", // Crucial for repeated grid scales
+    text: "#F8FAFC",
+    secondaryText: "#38BDF8",
+    accent: "#38BDF8",
+    buttonBackground: "#1E293B",
+    buttonText: "#F8FAFC",
+    buttonBorder: "#334155",
+    buttonShadow: "0 8px 24px rgba(56,189,248,0.15)",
+  },
+
+  {
+    name: "Retro Stripe",
+    id: "retro-stripe",
+    background: "#FFFBEB",
+    card: "#FFFFFF",
+    // Clean 45-degree repeated warm diagonal stripes
+    banner: "repeating-linear-gradient(45deg, #FDE68A, #FDE68A 10px, #FCD34D 10px, #FCD34D 20px)",
+    text: "#78350F",
+    secondaryText: "#92400E",
+    accent: "#F59E0B",
+    buttonBackground: "#FFFFFF",
+    buttonText: "#78350F",
+    buttonBorder: "#FDE68A",
+    buttonShadow: "0 8px 24px rgba(245,158,11,0.08)",
+  },
+
+  {
+    name: "Carbon Mesh",
+    id: "carbon-mesh",
+    background: "#111827",
+    card: "#1F2937",
+    // Modern technical microdot/polka matrix pattern
+    banner: "radial-gradient(#374151 2px, transparent 2px)",
+    bannerSize: "16px 16px",
+    text: "#F9FAFB",
+    secondaryText: "#9CA3AF",
+    accent: "#3B82F6",
+    buttonBackground: "#1F2937",
+    buttonText: "#F9FAFB",
+    buttonBorder: "#374151",
+    buttonShadow: "0 8px 24px rgba(0,0,0,0.4)",
+  },
+
+  {
+    name: "Candy Cane",
+    id: "candy-cane",
+    background: "#FFF1F2",
+    card: "#FFFFFF",
+    // Highly striking alternate micro-stripes
+    banner: "repeating-linear-gradient(-45deg, #FFE4E6, #FFE4E6 8px, #FECDD3 8px, #FECDD3 16px)",
+    text: "#881337",
+    secondaryText: "#E11D48",
+    accent: "#E11D48",
+    buttonBackground: "#FFFFFF",
+    buttonText: "#881337",
+    buttonBorder: "#FECDD3",
+    buttonShadow: "0 8px 24px rgba(225,29,72,0.08)",
+  },
+
+  {
+    name: "Cyber Waves",
+    id: "cyber-waves",
+    background: "#0B0F19",
+    card: "#161B22",
+    // Repeated horizontal neon line scans
+    banner: "linear-gradient(#00F5FF 1px, transparent 1px)",
+    bannerSize: "100% 8px",
+    text: "#00F5FF",
+    secondaryText: "#BD00FF",
+    accent: "#FF007F",
+    buttonBackground: "#161B22",
+    buttonText: "#00F5FF",
+    buttonBorder: "#00F5FF/20",
+    buttonShadow: "0 8px 24px rgba(0,245,255,0.15)",
+  }
+
 ];
