@@ -268,9 +268,9 @@ const Dashboard = () => {
                 <label className="block text-xs font-semibold text-slate-500 uppercase tracking-wider">
                   LynkUp Handle URL
                 </label>
-                <div className="relative w-full shadow-2xs rounded-lg overflow-hidden border border-slate-200 focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 transition duration-150">
+                <div className="flex w-full shadow-2xs rounded-lg py-2 bg-slate-50 overflow-hidden border border-slate-200 focus-within:border-indigo-500 focus-within:ring-1 focus-within:ring-indigo-500 transition duration-150">
                   {/* Absolute platform path prefix stamp */}
-                  <span className="absolute left-3 top-1/2 -translate-y-1/2 text-sm font-bold text-slate-400 tracking-tight">
+                  <span className="pl-1 text-sm font-bold text-slate-400 tracking-tight">
                     {window.location.href.split('/')[2]}/u/
                   </span>
                   <input
@@ -285,7 +285,7 @@ const Dashboard = () => {
                       }))
                     }
                     placeholder="username"
-                    className="w-full bg-slate-50 text-slate-700 font-bold pl-[121px] pr-4 py-2.5 text-sm bg-transparent focus:bg-white focus:outline-hidden"
+                    className=" bg-slate-50 text-slate-700 font-bold text-sm bg-transparent focus:bg-white focus:outline-hidden"
                   />
                 </div>
               </div>
