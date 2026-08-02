@@ -35,9 +35,17 @@ const registerUser = async (req, res) => {
         );
 
         if (existingUser) {
+
+            if(existingUser.username === normalizedUsername){
+                return res.status(409).json({
+                    success: false,
+                    message: `User with the username ${normalizedUsername} already exists.`
+                });
+            }
+
             return res.status(409).json({
                 success: false,
-                message: "User with this email or username already exists."
+                message: "User with this email already exists."
             });
         }
 
