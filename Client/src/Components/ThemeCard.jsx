@@ -32,7 +32,9 @@ function ThemeCard({ theme, selected, onClick }) {
       <div
         className="h-12"
         style={{
-          background: theme.banner,
+          backgroundImage: theme.banner,
+          backgroundSize: theme.bannerSize || "cover",
+          backgroundPosition: "center"
         }}
       />
 
