@@ -19,13 +19,25 @@ const registerUser = async (req, res) => {
             });
         }
 
+        const normalizedUsername = username.toLowerCase();
+        const normalizedEmail = email.trim().toLowerCase();
+
+
         // 2. Check if user already exists
-        const existingUser = await User.findOne({ email });
+        const existingUser = await User.findOne(
+            
+            {
+                $or : [
+                    {username: normalizedUsername},
+                    {email: normalizedEmail}
+                ]
+            } 
+        );
 
         if (existingUser) {
             return res.status(409).json({
                 success: false,
-                message: "User with this email already exists."
+                message: "User with this email or username already exists."
             });
         }
 
@@ -86,7 +98,7 @@ const registerUser = async (req, res) => {
         });
 
     } catch (error) {
-        console.error(error);
+        console.error("Registration error:", error);
 
         return res.status(500).json({
             success: false,
