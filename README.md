@@ -8,7 +8,7 @@ Built with the **MERN stack**, LynkUp includes secure authentication, email veri
 
 ## Live demo
 
-**Live URL:** https://your-live-url.com
+**Live URL:** https://lynk-up-psi.vercel.app/
 
 ---
 
@@ -121,7 +121,7 @@ LynkUp/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/lynkup.git
+git clone https://github.com/Prashantsingh4056/LynkUp.git
 cd lynkup
 ```
 
@@ -248,9 +248,9 @@ The application is designed for a production deployment using:
 
 **Prashant Singh**
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/Prashantsingh4056
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: linkedin.com/in/prashant-singh-636982324
 
 ---
 
