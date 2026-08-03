@@ -87,7 +87,7 @@ const Home = () => {
         {/* Soft underlying shadow aura */}
         <div className="pointer-events-none absolute -top-10 left-1/2 -translate-x-1/2 w-3/4 h-3/4 bg-[#7C3AED]/10 blur-[100px] z-0 rounded-full"></div>
 
-        <PreviewProfile profile={dummyProfileData} theme={themes[17]}/>
+        <PreviewProfile profile={dummyProfileData} theme={themes[10]}/>
 
         {/* <div className="relative z-1 w-full border border-[#1E3916]/20 bg-[#1E3] rounded-4xl shadow-2xl p-6 md:p-10 max-w-sm mx-auto flex flex-col items-center min-h-[440px]">
           
