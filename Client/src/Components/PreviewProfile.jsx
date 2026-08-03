@@ -119,16 +119,19 @@ export default function PreviewProfile({ profile, theme }) {
               key={link._id}
               href={link.url}
               target="_blank"
-              className="group font-bold flex items-center justify-between rounded-2xl px-5 py-4 transition-all hover:-translate-y-1"
               style={{
                 background: theme.buttonBackground,
-
+                
                 color: theme.buttonText,
-
+                
                 boxShadow: theme.buttonShadow
-                  ? "0 8px 24px rgba(0,0,0,.08)"
-                  : "none",
+                ? "0 8px 24px rgba(0,0,0,.08)"
+                : "none",
+                
+                borderColor: theme.buttonBorderColor || "transparent",
+                
               }}
+              className="group font-bold flex items-center justify-between rounded-2xl px-5 py-4 border border-b-4 border-[#3cff00] hover:border-b-1 transition-all cursor-pointer"
             >
               <span>{link?.title}</span>
 

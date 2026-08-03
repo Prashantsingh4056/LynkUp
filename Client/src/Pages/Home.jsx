@@ -1,5 +1,7 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import PreviewProfile from "../Components/PreviewProfile"
+import { dummyProfileData, themes } from "../assets/themes"
 
 const Home = () => {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -11,7 +13,11 @@ const Home = () => {
       {/* Clean Floating Navbar with subtle contrast borders */}
       <nav className="w-full px-4 md:px-16 lg:px-24 xl:px-32 pt-6 sticky top-0 z-50">
         <div className="flex items-center justify-between bg-white px-6 py-4 rounded-full shadow-md w-full border border-[#1E3916]/10">
-            <Link to="/" className="text-2xl font-black tracking-tight text-[#1E3916]">LynkUp<span className="text-[#7C3AED]">*</span></Link>
+            <Link to="/" className="flex gap-2 items-center text-2xl font-black tracking-tight text-[#7C3AED]">
+            <img src="/link.png" alt="" className="w-9 h-9"/>
+            LynkUp
+            
+            </Link>
             
             {/* Mobile Nav Menu */}
             <div id="menu" className={`${mobileOpen ? 'max-md:w-full' : 'max-md:w-0'} max-md:fixed max-md:top-0 max-md:z-10 max-md:left-0 max-md:transition-all max-md:duration-300 max-md:overflow-hidden max-md:h-screen max-md:bg-white max-md:flex-col max-md:justify-center flex items-center gap-8 text-sm font-bold`}>
@@ -77,13 +83,15 @@ const Home = () => {
       </div>
 
       {/* Bottom Mock Mobile Canvas Sandbox */}
-      <div className="relative mt-16 w-full max-w-4xl px-4 mb-20">
+      <div className="flex justify-center relative mt-16 w-full max-w-4xl px-4 mb-20">
         {/* Soft underlying shadow aura */}
         <div className="pointer-events-none absolute -top-10 left-1/2 -translate-x-1/2 w-3/4 h-3/4 bg-[#7C3AED]/10 blur-[100px] z-0 rounded-full"></div>
 
-        <div className="relative z-1 w-full border border-[#1E3916]/20 bg-[#1E3916] rounded-4xl shadow-2xl p-6 md:p-10 max-w-sm mx-auto flex flex-col items-center min-h-[440px]">
+        <PreviewProfile profile={dummyProfileData} theme={themes[17]}/>
+
+        {/* <div className="relative z-1 w-full border border-[#1E3916]/20 bg-[#1E3] rounded-4xl shadow-2xl p-6 md:p-10 max-w-sm mx-auto flex flex-col items-center min-h-[440px]">
           
-          {/* Avatar Area */}
+          
           <div className="w-16 h-16 rounded-full bg-gradient-to-tr from-[#7C3AED] to-[#EC4899] text-white font-black text-xl flex items-center justify-center shadow-md mb-3">
             LU
           </div>
@@ -91,7 +99,6 @@ const Home = () => {
           <p className="text-sm font-black text-[#D2E823] mb-1">@yourname</p>
           <p className="text-center text-xs text-[#D2E823]/80 px-4 mb-8 font-bold">Fullstack Software Developer</p>
           
-          {/* Balanced interactive stack linking contrasting styles */}
           <div className="w-full space-y-3">
             <div className="w-full py-4 px-6 bg-white rounded-xl text-center text-xs font-black text-[#1E3916] border border-b-4 border-[#1E3916] transform hover:translate-y-[2px] hover:border-b-2 transition-all cursor-pointer">
               🚀 Explore My Projects Hub
@@ -103,7 +110,7 @@ const Home = () => {
               💼 Connect on LinkedIn
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       
     </section>

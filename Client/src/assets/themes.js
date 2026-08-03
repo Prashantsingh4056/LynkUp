@@ -12,6 +12,8 @@ export const themes = [
     buttonText: "#111827",
     buttonBorder: "#E5E7EB",
     buttonShadow: "0 8px 24px rgba(0,0,0,0.08)",
+    buttonBorderColor: "#E5E7EB",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -27,6 +29,9 @@ export const themes = [
     buttonText: "#0F172A",
     buttonBorder: "#DBEAFE",
     buttonShadow: "0 8px 24px rgba(37,99,235,0.12)",
+    // same as secondary text color for consistency
+    buttonBorderColor: "#64748B",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -42,6 +47,8 @@ export const themes = [
     buttonText: "#F8FAFC",
     buttonBorder: "#334155",
     buttonShadow: "0 8px 24px rgba(0,0,0,0.25)",
+    buttonBorderColor: "#334155",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -57,6 +64,8 @@ export const themes = [
     buttonText: "#064E3B",
     buttonBorder: "#A7F3D0",
     buttonShadow: "0 8px 24px rgba(16,185,129,0.12)",
+    buttonBorderColor: "#A7F3D0",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -72,6 +81,8 @@ export const themes = [
     buttonText: "#312E81",
     buttonBorder: "#DDD6FE",
     buttonShadow: "0 8px 24px rgba(139,92,246,0.12)",
+    buttonBorderColor: "#DDD6FE",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -87,6 +98,8 @@ export const themes = [
     buttonText: "#7C2D12",
     buttonBorder: "#FED7AA",
     buttonShadow: "0 8px 24px rgba(249,115,22,0.12)",
+    buttonBorderColor: "#FED7AA",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -102,6 +115,8 @@ export const themes = [
     buttonText: "#881337",
     buttonBorder: "#FECDD3",
     buttonShadow: "0 8px 24px rgba(225,29,72,0.12)",
+    buttonBorderColor: "#FECDD3",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -117,6 +132,8 @@ export const themes = [
     buttonText: "#78350F",
     buttonBorder: "#FDE68A",
     buttonShadow: "0 8px 24px rgba(245,158,11,0.12)",
+    buttonBorderColor: "#78350F",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -132,6 +149,8 @@ export const themes = [
     buttonText: "#111827",
     buttonBorder: "#D1D5DB",
     buttonShadow: "0 8px 24px rgba(0,0,0,0.08)",
+    buttonBorderColor: "#D1D5DB",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -147,6 +166,8 @@ export const themes = [
     buttonText: "#35552B",
     buttonBorder: "#A7095C",
     buttonShadow: "0 10px 24px rgba(167,9,92,0.15)",
+    buttonBorderColor: "#A7095C",
+    buttonBorderBottomWidth: "4px",
   },
   {
     name: "Neo Lime",
@@ -161,6 +182,8 @@ export const themes = [
     buttonText: "#233F18",
     buttonBorder: "#FFFFFF",
     buttonShadow: "0 12px 30px rgba(0,0,0,0.18)",
+    buttonBorderColor: "#c9e86b",
+    buttonBorderBottomWidth: "4px",
   },
   {
     name: "Cyberpunk",
@@ -175,6 +198,8 @@ export const themes = [
     buttonText: "#00F5FF",
     buttonBorder: "#FF007F/30",
     buttonShadow: "0 8px 24px rgba(255,0,127,0.2)",
+    buttonBorderColor: "#00F5FF",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -190,6 +215,8 @@ export const themes = [
     buttonText: "#1C2B35",
     buttonBorder: "#1C2B35/10",
     buttonShadow: "0 8px 24px rgba(28,43,53,0.06)",
+    buttonBorderColor: "#CF8E74",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -205,6 +232,8 @@ export const themes = [
     buttonText: "#2E3440",
     buttonBorder: "#E5E9F0",
     buttonShadow: "0 8px 24px rgba(94,129,172,0.08)",
+    buttonBorderColor: "#4C566A",
+    buttonBorderBottomWidth: "4px",
   },
   {
     name: "Matcha Latte",
@@ -219,6 +248,8 @@ export const themes = [
     buttonText: "#283618",
     buttonBorder: "#E4E6DA",
     buttonShadow: "0 8px 24px rgba(40,54,24,0.06)",
+    buttonBorderColor: "#606C38",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -234,6 +265,8 @@ export const themes = [
     buttonText: "#4A0E17",
     buttonBorder: "#FFE3E3",
     buttonShadow: "0 8px 24px rgba(255,107,107,0.1)",
+    buttonBorderColor: "#A64452",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -249,6 +282,8 @@ export const themes = [
     buttonText: "#4A3B18",
     buttonBorder: "#EFEBE4",
     buttonShadow: "0 8px 24px rgba(194,155,56,0.08)",
+    buttonBorderColor: "#967E4E",
+    buttonBorderBottomWidth: "4px",
   },
     {
     name: "Blueprint",
@@ -265,6 +300,8 @@ export const themes = [
     buttonText: "#F8FAFC",
     buttonBorder: "#334155",
     buttonShadow: "0 8px 24px rgba(56,189,248,0.15)",
+    buttonBorderColor: "#334155",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -281,6 +318,8 @@ export const themes = [
     buttonText: "#78350F",
     buttonBorder: "#FDE68A",
     buttonShadow: "0 8px 24px rgba(245,158,11,0.08)",
+    buttonBorderColor: "#78350F",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -298,6 +337,8 @@ export const themes = [
     buttonText: "#F9FAFB",
     buttonBorder: "#374151",
     buttonShadow: "0 8px 24px rgba(0,0,0,0.4)",
+    buttonBorderColor: "#374151",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -314,6 +355,8 @@ export const themes = [
     buttonText: "#881337",
     buttonBorder: "#FECDD3",
     buttonShadow: "0 8px 24px rgba(225,29,72,0.08)",
+    buttonBorderColor: "#E11D48",
+    buttonBorderBottomWidth: "4px",
   },
 
   {
@@ -331,6 +374,39 @@ export const themes = [
     buttonText: "#00F5FF",
     buttonBorder: "#00F5FF/20",
     buttonShadow: "0 8px 24px rgba(0,245,255,0.15)",
+    buttonBorderColor: "#BD00FF",
+    buttonBorderBottomWidth: "4px",
   }
 
 ];
+
+export const dummyProfileData = {
+  username: "johndoe",
+  fullname: "John Doe",
+  profileImage: {
+    // a developer's image placeholder from unsplash, representing a generic user avatar
+    url: "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+  },
+  bio: "Full Stack Developer • Building modern web experiences.",
+  links: [
+    {
+      title: "My Portfolio",
+      url: "https://johndoe.com",
+    },
+    {
+      title: "GitHub",
+      url: "https://github.com",
+    },
+    {
+      title: "LinkedIn",
+      url: "https://linkedin.com",
+    },
+    {
+      title: "Twitter",
+      url: "https://twitter.com",
+    }
+  ],
+  appearance: {
+    theme: "neo-lime",
+  }
+}
