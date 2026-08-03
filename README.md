@@ -8,7 +8,7 @@ Built with the **MERN stack**, LynkUp includes secure authentication, email veri
 
 ## Live demo
 
-**Live URL:** https://your-live-url.com
+**Live URL:** https://lynk-up-psi.vercel.app/
 
 ---
 
@@ -53,19 +53,26 @@ Built with the **MERN stack**, LynkUp includes secure authentication, email veri
 
 ---
 
+##  Home Page
+
+<img width="1892" height="902" alt="image" src="https://github.com/user-attachments/assets/4c5869c1-83fa-422b-aa51-78342627b784" />
+
 ## Screenshots
 
 ### Dashboard
 
-Add your dashboard screenshot here.
+<img width="1900" height="906" alt="image" src="https://github.com/user-attachments/assets/3f5dd450-5669-4a5a-a27d-8562270e0068" />
 
 ### Theme customization
 
-Add your theme customization screenshot here.
+<img width="1900" height="902" alt="image" src="https://github.com/user-attachments/assets/94d42b34-d492-4123-bf77-78f534539bc2" />
 
 ### Public profile
 
-Add your public profile screenshot here.
+<img width="1901" height="903" alt="image" src="https://github.com/user-attachments/assets/0c30f70e-78e8-4308-bbd6-47fa7b7e92be" />
+
+<img width="1522" height="837" alt="image" src="https://github.com/user-attachments/assets/0de157f9-df63-455e-832f-e1a6aa4bb897" />
+
 
 ---
 
@@ -121,7 +128,7 @@ LynkUp/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/lynkup.git
+git clone https://github.com/Prashantsingh4056/LynkUp.git
 cd lynkup
 ```
 
@@ -248,9 +255,9 @@ The application is designed for a production deployment using:
 
 **Prashant Singh**
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/Prashantsingh4056
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: linkedin.com/in/prashant-singh-636982324
 
 ---
 
