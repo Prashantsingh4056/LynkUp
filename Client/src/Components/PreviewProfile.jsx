@@ -16,7 +16,7 @@ export default function PreviewProfile({ profile, theme }) {
   const { user } = getUserData();
   return (
     <div
-      className="w-full md:w-95 min-h-screen md:h-full overflow-hidden shadow-lg pb-7 md:rounded-[32px]"
+      className="w-full lg:w-95 min-h-screen lg:h-full overflow-hidden shadow-lg pb-7 lg:rounded-[32px]"
       style={{
         background: theme.background,
         borderRadius: theme.borderRadius,

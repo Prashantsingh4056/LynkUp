@@ -83,7 +83,7 @@ const PublicProfile = () => {
 
   //  Base Success Layout: Pure, minimalist presentation framework optimized for user links
   return (
-    <section className="w-full h-full  bg-slate-100 flex items-center justify-center border-red-800 md:px-4 md:py-12">
+    <section className="w-full h-full  bg-slate-100 flex items-center justify-center border-red-800 lg:px-4 lg:py-12">
       {/* 
     <div className="w-full max-w-sm overflow-hidden rounded-[32px] bg-[#D6E752] shadow-[0_20px_60px_rgba(0,0,0,0.12)]">
 
